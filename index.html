@@ -9,58 +9,95 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Project01</title>
-  </head>
-  <body>
-    <header
-          class="d-flex flex-wrap justify-content-between py-3 container"
-        >
-            <span class="display-7 py-2 px-3">DELTA hotels</span>
-          </a>
+    <style>
+      :root {
+        --highlight-color: #ff7b54;
+        --darker-filter: brightness(0.5);
+      }
 
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a href="#" class="nav-link text-danger" aria-current="page"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-dark">Food Menu</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-dark">Reserve Table</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-dark">Pakages</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-dark">About us</a>
-            </li>
-          </ul>
-        </header>
+      .main-photo {
+        width: 420px;
+        height: 420px;
+      }
+    </style>
+  </head>
+  <body style="background: #fefcf3">
+    <header class="d-flex flex-wrap justify-content-between py-3 container">
+      <a>
+        <span class="display-7 py-2 px-3">DELTA hotels</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#" class="nav-link text-danger" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark">Food Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark">Reserve Table</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark">Pakages</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark">About us</a>
+        </li>
+      </ul>
+    </header>
 
     <main>
       <section class="container">
         <div class="row py-lg-5">
           <div class="col-md-6 mx-auto my-auto">
-            <h1 class="display-3">Reserve Your <span class="highlight-font">Table</span> & <span class="highlight-font">Order </span>Your Meal</h1>
+            <h1 class="display-3">
+              Reserve Your
+              <span style="color: var(--highlight-color)">Table</span> &
+              <span style="color: var(--highlight-color)">Order </span>Your Meal
+            </h1>
             <p class="lead text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptate porro dolore quibusdam repellat, ab architecto quisquam corrupti numquam voluptatum quis eius distinctio ullam reiciendis nesciunt dolores minima nihil. Explicabo. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              voluptate porro dolore quibusdam repellat, ab architecto quisquam
+              corrupti numquam voluptatum quis eius distinctio ullam reiciendis
+              nesciunt dolores minima nihil. Explicabo. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit.
+            </p>
 
-              <div class="row text-center my-5">
-                <div class="col">
-                  <a href="#" class="btn px-4 py-2 highlight-bg text-white">Reserve Table</a>
-                </div>
-                <div class="col">
-                  <a href="#" class="btn px-4 py-2 highlight-bg-fade">Order Food</a>
-                </div>
+            <div class="row text-center my-5">
+              <div class="col">
+                <a
+                  href="#"
+                  class="btn px-4 py-2 highlight-bg text-white"
+                  style="background: var(--highlight-color)"
+                  >Reserve Table</a
+                >
               </div>
+              <div class="col">
+                <a
+                  href="#"
+                  class="btn px-4 py-2"
+                  style="background-color: #fff8e1"
+                  >Order Food</a
+                >
+              </div>
+            </div>
           </div>
           <div class="col-md-6 my-auto text-center">
-            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="restaurant" class="main-photo rounded-circle">
+            <img
+              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+              alt="restaurant"
+              class="main-photo rounded-circle"
+            />
           </div>
         </div>
       </section>
@@ -73,12 +110,24 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card">
-                <img class="card-img bd" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
-                <div class="card-body card-img-overlay " style="color: white">
-                  <div class="text-wrap d-flex flex-column justify-content-end" style="height: 100%;">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                  alt="food-menu"
+                  style="filter: var(--darker-filter)"
+                />
+                <div class="card-body card-img-overlay" style="color: white">
+                  <div
+                    class="text-wrap d-flex flex-column justify-content-end"
+                    style="height: 100%"
+                  >
                     <h4 class="card-title">Fried Chicken</h4>
                     <div class="">
-                      <a href="#" class="card-link text-decoration-none text-white">Order Now</a>
+                      <a
+                        href="#"
+                        class="card-link text-decoration-none text-white"
+                        >Order Now</a
+                      >
                       <i class="fa-solid fa-arrow-right"></i>
                     </div>
                   </div>
@@ -87,12 +136,24 @@
             </div>
             <div class="col-md-4">
               <div class="card">
-                <img class="card-img bd" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
-                <div class="card-body card-img-overlay " style="color: white">
-                  <div class="text-wrap d-flex flex-column justify-content-end" style="height: 100%;">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                  alt="food-menu"
+                  style="filter: var(--darker-filter)"
+                />
+                <div class="card-body card-img-overlay" style="color: white">
+                  <div
+                    class="text-wrap d-flex flex-column justify-content-end"
+                    style="height: 100%"
+                  >
                     <h4 class="card-title">Burger</h4>
                     <div class="">
-                      <a href="#" class="card-link text-decoration-none text-white">Order Now</a>
+                      <a
+                        href="#"
+                        class="card-link text-decoration-none text-white"
+                        >Order Now</a
+                      >
                       <i class="fa-solid fa-arrow-right"></i>
                     </div>
                   </div>
@@ -101,12 +162,24 @@
             </div>
             <div class="col-md-4">
               <div class="card">
-                <img class="card-img bd" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
-                <div class="card-body card-img-overlay " style="color: white">
-                  <div class="text-wrap d-flex flex-column justify-content-end" style="height: 100%;">
+                <img
+                  class="card-img bd"
+                  src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                  alt="food-menu"
+                  style="filter: var(--darker-filter)"
+                />
+                <div class="card-body card-img-overlay" style="color: white">
+                  <div
+                    class="text-wrap d-flex flex-column justify-content-end"
+                    style="height: 100%"
+                  >
                     <h4 class="card-title">Noodles</h4>
                     <div class="">
-                      <a href="#" class="card-link text-decoration-none text-white">Order Now</a>
+                      <a
+                        href="#"
+                        class="card-link text-decoration-none text-white"
+                        >Order Now</a
+                      >
                       <i class="fa-solid fa-arrow-right"></i>
                     </div>
                   </div>
@@ -118,7 +191,6 @@
       </section>
 
       <!--  -->
-
     </main>
 
     <footer class="text-muted py-5">
