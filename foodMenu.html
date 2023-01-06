@@ -34,8 +34,16 @@
         background-color: rgba(0, 0, 0, 0.5);
       }
 
-      .b {
-        border: 1px sold #ff7b54;
+      .button {
+        background-color: #fefcf3;
+        border: 1px solid #ff7b54;
+        width: 10rem;
+        border-radius: 4px;
+      }
+
+      .button:hover {
+        color: white;
+        background-color: #ff7b54;
       }
     </style>
   </head>
@@ -100,24 +108,196 @@
       </section>
 
       <!-- Popular Food Items -->
-      <section>
-        <div class="container">
-          <h2>Popular Food Items</h2>
-          <div class="row">
+      <section class="py-5">
+        <div class="container text-center">
+          <h2 class="">Popular Food Items</h2>
+          <div class="row py-5">
             <div class="col-md-3">
-              <button type="button" class="btn b">Primary</button>
+              <button type="button" class="button py-2 px-4">All</button>
             </div>
             <div class="col-md-3">
-              <button type="button" class="btn">Primary</button>
+              <button type="button" class="button py-2 px-4">Burger(02)</button>
             </div>
             <div class="col-md-3">
-              <button type="button" class="btn">Primary</button>
+              <button type="button" class="button py-2 px-4">Fries(06)</button>
             </div>
             <div class="col-md-3">
-              <button type="button" class="btn">Primary</button>
+              <button type="button" class="button py-2 px-4">
+                Chicken(09)
+              </button>
             </div>
           </div>
         </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card shadow-lg">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  alt="food-menu"
+                />
+                <div class="card-body card-img-top">
+                  <div class="d-flex justify-content-between pb-1">
+                    <h5 class="card-title">Burger</h5>
+                    <span style="color: var(--highlight-color)">$180.00</span>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nulla molestiae veritatis aspernatur nemo?
+                  </p>
+                  <div class="d-grid gap-1">
+                    <a
+                      href="#"
+                      class="btn text-white py-2"
+                      style="background: var(--highlight-color)"
+                      >ORDER NOW</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-lg">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  alt="food-menu"
+                />
+                <div class="card-body card-img-top">
+                  <div class="d-flex justify-content-between pb-1">
+                    <h5 class="card-title">Chicken</h5>
+                    <span style="color: var(--highlight-color)">$77.60</span>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nulla molestiae veritatis aspernatur nemo?
+                  </p>
+                  <div class="d-grid gap-1">
+                    <a
+                      href="#"
+                      class="btn text-white py-2"
+                      style="background: var(--highlight-color)"
+                      >ORDER NOW</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-lg">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  alt="food-menu"
+                />
+                <div class="card-body card-img-top">
+                  <div class="d-flex justify-content-between pb-1">
+                    <h5 class="card-title">Fried Chicken</h5>
+                    <span style="color: var(--highlight-color)">$85.00</span>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nulla molestiae veritatis aspernatur nemo?
+                  </p>
+                  <div class="d-grid gap-1">
+                    <a
+                      href="#"
+                      class="btn text-white py-2"
+                      style="background: var(--highlight-color)"
+                      >ORDER NOW</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row pt-4">
+            <div class="col-md-4">
+              <div class="card shadow-lg">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  alt="food-menu"
+                />
+                <div class="card-body card-img-top">
+                  <div class="d-flex justify-content-between pb-1">
+                    <h5 class="card-title">Burger</h5>
+                    <span style="color: var(--highlight-color)">$180.00</span>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nulla molestiae veritatis aspernatur nemo?
+                  </p>
+                  <div class="d-grid gap-1">
+                    <a
+                      href="#"
+                      class="btn text-white py-2"
+                      style="background: var(--highlight-color)"
+                      >ORDER NOW</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-lg">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  alt="food-menu"
+                />
+                <div class="card-body card-img-top">
+                  <div class="d-flex justify-content-between pb-1">
+                    <h5 class="card-title">Chicken</h5>
+                    <span style="color: var(--highlight-color)">$77.60</span>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nulla molestiae veritatis aspernatur nemo?
+                  </p>
+                  <div class="d-grid gap-1">
+                    <a
+                      href="#"
+                      class="btn text-white py-2"
+                      style="background: var(--highlight-color)"
+                      >ORDER NOW</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-lg">
+                <img
+                  class="card-img"
+                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                  alt="food-menu"
+                />
+                <div class="card-body card-img-top">
+                  <div class="d-flex justify-content-between pb-1">
+                    <h5 class="card-title">Fried Chicken</h5>
+                    <span style="color: var(--highlight-color)">$85.00</span>
+                  </div>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nulla molestiae veritatis aspernatur nemo?
+                  </p>
+                  <div class="d-grid gap-1">
+                    <a
+                      href="#"
+                      class="btn text-white py-2"
+                      style="background: var(--highlight-color)"
+                      >ORDER NOW</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-5 text-center">1 2 3 4 ...... Next</div>
       </section>
     </main>
     <!-- Footer -->
